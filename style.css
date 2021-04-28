@@ -1,0 +1,121 @@
+selector {
+	property: value;
+	property: value;
+}
+
+#profil {
+    display: block;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+  color: pink;
+  text-align: center;
+	font-size: 24px;
+	font-family: Helvetica;
+    border-radius: 20px;
+}
+h2  {
+  background-color: grey
+ } 
+ 
+
+/*STYLES GENERAUX*/
+*{
+    font-family: Avenir, sans-serif;
+    padding: 2px;
+    margin: 3px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+body{
+    background: #ededed;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+div{
+    background-color:#E9E9E9;
+    border: 2px grey;
+    margin: 5px;
+    border-radius: 20px;
+
+} 
+/*HEADER & FOOTER*/
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: url("file:///Users/charlottecipriani/Desktop/my-profile/images/digital%20market.jpeg") #4f4f4f;
+    box-shadow: 0px 0px 15px #333;
+}
+header{
+    border-bottom: 2px solid #fff;
+    height: 120px;
+}
+
+/*SECTION COMPETENCES*/
+
+.comp{
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+}
+.comp p{
+    flex: 0 0 40%;
+}
+.conteneur-barre{
+    flex: 0 0 80%;
+    border-radius: 20px;
+    background-color: grey;
+    border-bottom: 1px ridge grey;
+}
+.barre{
+    display: block;
+    height: 90%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.c80{
+    width: 80%;
+    background-color: #FF9999;
+    border-radius: 5px;
+
+}
+.c90{
+    width: 90%;
+    background-color: #FF9999;
+    border-radius: 5px;
+}
+
+.conteneur-barre2{
+    flex: 0 0 90%;
+    height: 0.5em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    background-color: grey;
+}
+/*SECTION INTERETS*/
+.interet{
+    flex: 0 1 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.interet img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #555;
+   
+}
+
+
